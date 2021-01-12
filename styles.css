@@ -31,6 +31,7 @@ h4 {
   color: #11698e;
   margin: 0px;
   font-size: 2.5rem;
+
 }
 hr {
   border-color: #EAF6F6;
@@ -123,4 +124,17 @@ hr {
    display: inline-block;
    cursor: pointer;
    text-align: center;
+}
+
+@media (max-width: 1125px) {
+  .top-container {
+    text-align: center;
+  }
+  h4 {
+    position: relative;
+    z-index: 1;
+  }
+  .cloud2 {
+    left: 50px;
+  }
 }
